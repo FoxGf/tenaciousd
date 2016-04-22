@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("http://notitleproductionfilms.com/wp-content/uploads/2015/06/BrickBackgroundDarkTeal1.jpg");
+    padding: 0, 100px;
+    text-align: justify;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    padding: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: darkslategray;
+    padding: 5px 1em;
+    border-radius: 5px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav li {
+    display: inline-block;
+}
+
+#painel_filme {
+    background: rgb(255, 255, 255);
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+#titulo {
+    color: white;
+    background-image: url("http://stockfresh.com/thumbs/pashabo/1566521_filme-frame-resumo-vetor-fundo-textura.jpg");
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#poster_tenac {
+    position: relative;
+    float: right;
+    top: -80px
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+    text-align: left;
+    clear: both;
+}
+
+body p {
+    text-align: justify;
+    line-height: 1.50;
+    text-indent: 2em;
+}
+
+#ficha_tecnica {
+    background: black;
+    color: lightgray;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+dt {
+    font-weight: bold;
+    line-height: 1.50;
+}
+
+#elenco_img {
+    clear: both;
+}
+
+#elenco_img figure {
+    display: inline-block;
+    position: relative;
+    margin-right: 0;
+    border-collapse: collapse;
+}
+
+#elenco_img figure img {
+    position: relative;
+    text-align: center;
+    margin-right: 0;
+    width: 150px;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+#imagens {
+    background: black;
+    color: lightgray;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+#sasquatch-jb {
+    width: 500px;
+}
+
+iframe {
+    border: 0;
+    width: 50%;
+    height: 250px;
+    border: solid;
+    margin: 1em;
+}
