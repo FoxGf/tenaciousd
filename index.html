@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <link href="normalize.css" rel="stylesheet" />
     <link href="estilo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 </head>
 
@@ -13,7 +14,7 @@
 
     <nav>
 
-        <ul>
+        <ul class="nav nav-pills nav-justified">
             <li><a href="#sinopse">Sinopse</a></li>
             <li><a href="#ficha_tecnica">Ficha Técnica</a></li>
             <li><a href="#elenco">Elenco</a></li>
@@ -23,8 +24,8 @@
 
     </nav>
 
-    <div id="painel_filme">
-        <div id="titulo">
+    <div id="painel_filme" class="panel panel-default">
+        <div id="titulo" class="page-header">
             <h1>Tenacious D.</h1>
         </div>
 
@@ -45,30 +46,31 @@
         </section>
 
 
-        <article id="ficha_tecnica">
+        <section>
             <h2>Ficha Técnica</h2>
+            <div id="ficha_tecnica" class="row">
 
-            <figure id="poster_tenac">
-                <img src="http://2.media.collegehumor.cvcdn.com/89/68/92a1fb1017d6644e93ac6204c558af74-tenacious-d-in-the-pick-of-destiny.jpg" />
-            </figure>
 
-            <dt>Nome</dt>
-            <dd>Tenacious D in The Pick of Destiny (Tenacious D. Uma Dupla Infernal)</dd>
-            <dt>Gênero</dt>
-            <dd>Comédia/Musical</dd>
-            <dt>Data de Lançamento</dt>
-            <dd>22 de Novembro de 2006</dd>
-            <dt>Linguagem</dt>
-            <dd>Inglês</dd>
-            <dt>Duração</dt>
-            <dd>93 minutos</dd>
-            <dt>Roteiro</dt>
-            <dd>Jack Black</dd>
-            <dd>Kyle Gass</dd>
-            <dd>Liam Lynch</dd>
-            <dt>Direção</dt>
-            <dd>Liam Lynch</dd>
-        </article>
+                <div class="col-xs-6 col-md-6">
+                    <dt>Nome</dt>
+                    <dd>Tenacious D in The Pick of Destiny (Tenacious D. Uma Dupla Infernal)</dd>
+                    <dt>Gênero</dt>
+                    <dd>Comédia/Musical</dd>
+                    <dt>Data de Lançamento</dt>
+                    <dd>22 de Novembro de 2006</dd>
+                    <dt>Linguagem</dt>
+                    <dd>Inglês</dd>
+                    <dt>Duração</dt>
+                    <dd>93 minutos</dd>
+                    <dt>Roteiro</dt>
+                    <dd>Jack Black</dd>
+                    <dd>Kyle Gass</dd>
+                    <dd>Liam Lynch</dd>
+                    <dt>Direção</dt>
+                    <dd>Liam Lynch</dd>
+                </div>
+            </div>
+        </section>
 
         <article id="elenco">
             <h2>Elenco</h2>
@@ -149,6 +151,7 @@
             <iframe width="854" height="480" src="https://www.youtube.com/embed/IGEV13kGl9s" frameborder="0" allowfullscreen></iframe>
         </section>
     </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 
 </html>
