@@ -3,7 +3,7 @@ var verImagem = function imagem(img, imagem) {
         document.getElementById('img0' + i).style.backgroundColor = '#dddddd';
     }
 
-    document.getElementById(img).style.backgroundColor = '#990000';
+    document.getElementById(img).style.backgroundColor = '#992222';
     document.getElementById('imagem').firstElementChild.setAttribute('src', imagem);
 
 
