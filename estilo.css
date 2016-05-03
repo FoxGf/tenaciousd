@@ -58,8 +58,12 @@ section {
     margin-top: 0;
 }
 
-#poster_tenac {
-    float: right;
+.tam_min {
+    min-width: 300px;
+}
+
+.tam_max {
+    max-width: 420px;
 }
 
 h1 {
@@ -71,6 +75,26 @@ h2 {
     font-family: 'Rock Salt', cursive;
     text-align: left;
     clear: both;
+}
+
+.col-act {
+    width: 180px;
+    text-align: center;
+    padding: 0px;
+}
+
+.ator img {
+    width: 70%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 95%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 95%;
 }
 
 body p {
@@ -90,24 +114,6 @@ dt {
     line-height: 1.50;
 }
 
-#elenco_img {
-    clear: both;
-}
-
-#elenco_img figure {
-    display: inline-block;
-    position: relative;
-    margin-right: 0;
-    border-collapse: collapse;
-}
-
-#elenco_img figure img {
-    position: relative;
-    text-align: center;
-    margin-right: 0;
-    width: 150px;
-}
-
 figure figcaption {
     text-align: center;
 }
@@ -123,6 +129,43 @@ figure figcaption {
 
 #sasquatch-jb {
     width: 500px;
+}
+
+
+/*imagens*/
+
+#imagem img {
+    width: 100%;
+}
+
+
+/*bootstrap*/
+
+.thumbnail {
+    margin: 3px;
+    /*background-color: #990000;*/
+}
+
+#img01 {
+    background-color: #990000;
+}
+
+
+/*responsivo*/
+
+@media (max-width: 1000px) {
+    #imagemDesktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    #imagemMobile {
+        display: none;
+    }
+    #imgDescricao {
+        width: 400px;
+    }
 }
 
 iframe {

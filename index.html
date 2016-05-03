@@ -10,7 +10,7 @@
 </head>
 
 
-<body>
+<body class="tam_min">
 
     <nav>
 
@@ -50,8 +50,14 @@
             <h2>Ficha Técnica</h2>
             <div id="ficha_tecnica" class="row">
 
+                <div class="col-xs-12 col-md-6 tam_min tam_max">
+                    <figure id="poster_tenac">
+                        <img src="http://2.media.collegehumor.cvcdn.com/89/68/92a1fb1017d6644e93ac6204c558af74-tenacious-d-in-the-pick-of-destiny.jpg" alt="Tenacious D" title="Tenacious D" class="img-responsive" />
+                    </figure>
+                </div>
 
-                <div class="col-xs-6 col-md-6">
+
+                <div class="col-xs-12 col-md-6 fch_tecnica">
                     <dt>Nome</dt>
                     <dd>Tenacious D in The Pick of Destiny (Tenacious D. Uma Dupla Infernal)</dd>
                     <dt>Gênero</dt>
@@ -72,75 +78,91 @@
             </div>
         </section>
 
-        <article id="elenco">
+        <section id="elenco" class="row">
             <h2>Elenco</h2>
 
-            <dt>Jack Black</dt>
-            <dd>Jack Black (JB)</dd>
-            <dt>Kyle Gass</dt>
-            <dd>Kyle Gass (KG)</dd>
-            <dt>Ben Stiller</dt>
-            <dd>Vendedor da loja de guitarras</dd>
-            <dt>Dave Grohk</dt>
-            <dd>Satan</dd>
-            <dt>Ronnie James Dio</dt>
-            <dd>Ronnie James Dio</dd>
-            <dt>Tim Robbins</dt>
-            <dd>O Estranho</dd>
-            <dt>Paul F. Tompkins</dt>
-            <dd>Apresentador do show de talentos</dd>
-
-            <section id="elenco_img">
-                <figure>
-                    <img src="https://tvcinemaemusica.files.wordpress.com/2010/08/jackblack_l.jpg" alt="Jack Black" />
+            <div class="col-md-2 col-xs-6 col-act">
+                <figure class="ator"><img src="https://tvcinemaemusica.files.wordpress.com/2010/08/jackblack_l.jpg" alt="Jack Balack" title="Jack Balack - JB" />
                     <figcaption>Jack Balack</figcaption>
                 </figure>
-
-                <figure>
-                    <img src="http://www.vokrug.tv/pic/person/e/4/3/1/e431483d0e298591bdacf04d7ceade4f.jpeg" alt="Kyle Gass" />
+            </div>
+            <div class="col-md-2 col-xs-6 col-act">
+                <figure class="ator"><img src="http://www.vokrug.tv/pic/person/e/4/3/1/e431483d0e298591bdacf04d7ceade4f.jpeg" alt="Kyle Gass" title="Kyle Gass - KG" />
                     <figcaption>Kyle Gass</figcaption>
                 </figure>
-
-                <figure>
-                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpH7Mv-guIfoZSG6du2pu9V_dPgfcLEioviIc0vt1JiWF-fFdAkg" alt="Dave Grohl" />
+            </div>
+            <div class="col-md-2 col-xs-6 col-act">
+                <figure class="ator"><img src="http://digitalspyuk.cdnds.net/14/45/1280x1749/gallery_20140912_redbull_foofighters_shoot_0117v4_verl.jpg" alt="Dave Grohl" title="Dave Grohl - Satã" />
                     <figcaption>Dave Grohl</figcaption>
                 </figure>
-
-                <figure>
-                    <img src="https://tvcinemaemusica.files.wordpress.com/2010/02/tim-robbins.jpg" alt="Tim Robbins" />
+            </div>
+            <div class="col-md-2 col-xs-6 col-act">
+                <figure class="ator"><img src="https://tvcinemaemusica.files.wordpress.com/2010/02/tim-robbins.jpg" alt="Tim Robbins" title="Tim Robbins - O Estranho" />
                     <figcaption>Tim Robbins</figcaption>
                 </figure>
-
-                <figure>
-                    <img src="http://3.bp.blogspot.com/_s2ALKnFb-GY/S_C9XUO3oPI/AAAAAAAAAIA/w3PGtxwchF4/s320/ronniediophoto.jpg" alt="Ronnie James Dio" />
-                    <figcaption>Ronnie James Dio</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="http://media2.popsugar-assets.com/files/users/0/88/11_2007/56000329.xlarge.jpg" alt="Ben Stiller" />
+            </div>
+            <div class="col-md-2 col-xs-6 col-act">
+                <figure class="ator"><img src="http://3.bp.blogspot.com/_s2ALKnFb-GY/S_C9XUO3oPI/AAAAAAAAAIA/w3PGtxwchF4/s320/ronniediophoto.jpg" alt="Ronnie James Dio" title="Ronnie James Dio - DIO" /></figure>
+                <figcaption>Ronnie James Dio</figcaption>
+            </div>
+            <div class="col-md-2 col-xs-6 col-act">
+                <figure class="ator"><img src="http://media2.popsugar-assets.com/files/users/0/88/11_2007/56000329.xlarge.jpg" alt="Ben Stiller" title="Ben Stiller - Vendedor de Guitarras" />
                     <figcaption>Ben Stiller</figcaption>
                 </figure>
+            </div>
 
-            </section>
+        </section>
 
-        </article>
+        <section>
+            <h2>Imagens</h2>
+            <!-- tela > 1000px -->
+            <div id="imagemDesktop" class="row">
+                <div class="col-md-2">
+                    <div class="thumbnail" id="img01">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Tenacious_d_in_the_pick_of_destiny_ver3.jpg" alt="imagem" onclick="verImagem('img01', 'https://upload.wikimedia.org/wikipedia/en/b/b6/Tenacious_d_in_the_pick_of_destiny_ver3.jpg')" />
+                    </div>
+                    <div class="thumbnail" id="img02">
+                        <img src="http://ia.media-imdb.com/images/M/MV5BMTUyMDA3OTc4MV5BMl5BanBnXkFtZTcwNzE5NjkzMQ@@._V1_SX640_SY720_.jpg" alt="imagem" onclick="verImagem('img02', 'http://ia.media-imdb.com/images/M/MV5BMTUyMDA3OTc4MV5BMl5BanBnXkFtZTcwNzE5NjkzMQ@@._V1_SX640_SY720_.jpg')" />
+                    </div>
+                    <div class="thumbnail" id="img03">
+                        <img src="http://dvdmedia.ign.com/dvd/image/article/768/768752/tenacious-d-in-the-pick-of-destiny-20070227055529531-000.jpg" alt="imagem" onclick="verImagem('img03', 'http://dvdmedia.ign.com/dvd/image/article/768/768752/tenacious-d-in-the-pick-of-destiny-20070227055529531-000.jpg')" />
+                    </div>
+                </div>
+                <div id="imagem" class="col-md-10">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Tenacious_d_in_the_pick_of_destiny_ver3.jpg" alt="imagem" class="thumbnail" />
+                </div>
+            </div>
 
+            <!-- tela < 1000px -->
+            <div id="imagemMobile" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#imagemMobile" data-slide-to="0" class="active"></li>
+                    <li data-target="#imagemMobile" data-slide-to="1"></li>
+                    <li data-target="#imagemMobile" data-slide-to="2"></li>
+                </ol>
 
-        <section id="imagens">
-            <h2>Posters e Imagens</h2>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Tenacious_d_in_the_pick_of_destiny_ver3.jpg" alt="imagem">
+                    </div>
+                    <div class="item">
+                        <img src="http://ia.media-imdb.com/images/M/MV5BMTUyMDA3OTc4MV5BMl5BanBnXkFtZTcwNzE5NjkzMQ@@._V1_SX640_SY720_.jpg" alt="imagem">
+                    </div>
+                    <div class="item">
+                        <img src="http://dvdmedia.ign.com/dvd/image/article/768/768752/tenacious-d-in-the-pick-of-destiny-20070227055529531-000.jpg" alt="imagem">
+                    </div>
+                </div>
 
-            <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Tenacious_d_in_the_pick_of_destiny_ver3.jpg" alt="Poster - Tenacious D" />
-            </figure>
-
-            <figure>
-                <img src="http://ia.media-imdb.com/images/M/MV5BMTUyMDA3OTc4MV5BMl5BanBnXkFtZTcwNzE5NjkzMQ@@._V1_SX640_SY720_.jpg" alt="Poster - Tenacious D" />
-            </figure>
-
-            <figure>
-                <img id="sasquatch-jb" src="http://dvdmedia.ign.com/dvd/image/article/768/768752/tenacious-d-in-the-pick-of-destiny-20070227055529531-000.jpg" alt="JB Sasquatch" />
-            </figure>
-
+                <!-- Controls -->
+                <a class="left carousel-control" href="#imagemMobile" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="right carousel-control" href="#imagemMobile" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                </a>
+            </div>
         </section>
 
         <section id="trailer">
@@ -152,6 +174,7 @@
         </section>
     </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="script-tenac.js"></script>
 </body>
 
 </html>
